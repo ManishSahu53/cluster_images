@@ -9,7 +9,6 @@ def cluster(file):
     lat = cord[0]
     long = cord[1]
     print file
-    status = status + 1
 
     for k in range(0, num_shp):
         if min_lat[k] < lat and max_lat[k] > lat and min_long[k] < long and max_long[k] > long:
